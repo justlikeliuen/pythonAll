@@ -1,0 +1,12 @@
+# 过滤iml文件
+*.iml
+#忽略整个.idea文件夹
+.idea/
+#.gitignore
+target/
+log*
+log/
+*.pyc
+*.DS_Store
+
+
