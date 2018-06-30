@@ -103,7 +103,7 @@ for x in fibon(10):
 def grep(pattern):
     print("Searching for", pattern)
     while True:
-        line = (yield)          # receive send() 
+        line = (yield)          # receive send()
         if pattern in line:
             print(line)
 
